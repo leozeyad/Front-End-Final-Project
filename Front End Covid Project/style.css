@@ -1,0 +1,662 @@
+/* Style for the nav bar */
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #50658e;
+    font-weight: 500;
+}
+.navbar-light :hover .navbar-nav :hover .nav-link.active, .navbar-light :hover .navbar-nav :hover .show> :hover .nav-link:hover{
+    color: #2a81ea;
+    font-weight: 500;
+}
+
+/* style for the icon in the nav bar */
+.icon-corona{
+    color: #FF5363;
+}
+
+/* Style for The header */
+.background-covido{
+background: #F7F9FE url(http://frontend.projects-amit-learning.com/images/shape-a.png) no-repeat;
+background-size: contain;
+}
+.numbers{
+    color: cadetblue;
+}
+.font-logo{
+    color: rgb(6, 40, 85);
+}
+.font-large{
+    font-size: 3em;
+    font-weight: 900;
+    color: #50658e;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+}
+.font-small{
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #ff3c3c;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin: 0.1rem;
+}
+.allign-text{
+    text-align: end;
+}
+.font-small2{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #50658e;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin: 0.1rem;
+}
+.body{
+    margin: 0;
+}
+
+
+.text-color{
+    letter-spacing: 0.04em;
+    color: #465675;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-style: normal;
+}
+.font-details{
+    font-size: 0.75rem;
+}
+.background-ABT{
+        background: #fcfcfc;
+        background-size: contain;
+}
+.font-ABT{
+    color: #2a81ea;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    font-weight: 450;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font-ABT2{
+    color: #50658e;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.font-ABT3{
+    color: #3d4b69;
+    font-size: 22px;
+    font-weight: 500;
+}
+.font-ABT4{
+    font-size: 22px;
+    font-weight: 350;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 11px;
+}
+.font-Card{
+    color: #50658e;
+    font-size: 22px;
+    font-weight: 620;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    scroll-behavior: smooth;
+}
+.background-How{
+    background: #f7f9fe;
+    background-size: contain;
+}
+.text-allign{
+    text-align: center;
+}
+.font-How{
+    color: #0f6fe6;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    font-weight: 660;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font-How2{
+    color: #50658e;
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.font-How3{
+    font-size: 16px;
+    font-weight: 530;
+}
+.font-How4{
+    color: #50658e;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.border-pic{
+    border-bottom: rgb(47, 130, 168) solid 5px;
+}
+.font-pic{
+    color: #2a81ea;
+    font-size: 18px;
+    margin-bottom: 7px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    scroll-behavior: smooth;
+}
+.font-pic2{
+    color: #3d4b69;
+    line-height: 1.5em;
+    font-size: 14px;
+    font-weight: 560;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    scroll-behavior: smooth;
+}
+@media only screen and (max-width: 980px) {
+    .margin-bottom{
+        margin-bottom: 80px;
+    }
+}
+.position{
+    position: relative;
+    top: -70%;
+    right: -70%;
+    width: 75px;
+}
+.font-blue{
+    color: #2a81ea; 
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    scroll-behavior: smooth;
+    position: relative;
+    top: -70%;
+    font-weight: 650;
+}
+.font-black{
+    position: relative;
+    top: -70%;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    scroll-behavior: smooth;
+    font-weight: 450;
+}
+/* Width of the card wuth circular pic in different sizes */
+.width-dec{
+    height: 230px;
+}
+@media only screen and (max-width: 767px) {
+    .width-dec{
+      height: 245px;
+    }
+}
+    @media only screen and (max-width: 575px) {
+        .width-dec{
+          height: 190px;
+        }
+    }
+        @media only screen and (max-width: 365px) {
+            .width-dec{
+              height: 220px;
+            }
+        }
+.icon-1{
+    width: 50px;
+    height: 50px;
+    color: #2a81ea;
+}
+/* 5th div style */
+.font-color{
+    color:#3d4b69;
+    font-weight: 520;
+    font-size: 17px;
+}
+.font-color2{
+    font-size: 15px;
+    font-weight: 4900;
+    color: #3d4b69;
+}
+.font-color3{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #465675;
+    font-size: 30px;
+    font-weight: 550;
+    margin-bottom: 30px;
+}
+.font-color4{
+    color: #465675;
+    font-size: 15px;
+    font-weight: 550;
+    padding-bottom: 12px;
+}
+.logo-color{
+    color: #3dca93;
+}
+.link-style{
+    color: #2a81ea;
+}
+.font-color5
+{
+    color: #465675;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+@media only screen and (max-width: 992px) {
+   .img-radius{
+       width: 100px;
+       height: 100px;
+   }
+}
+@media only screen and (max-width: 768px) {
+    .img-radius{
+        width: 130px;
+        height: 130px;
+    }
+ }
+ @media only screen and (max-width: 576px) {
+    .img-radius{
+        width: 80px;
+        height: 80px;
+    }
+ }
+
+/* 6th div */
+.background-covido2{
+    background: #2766bb url(http://frontend.projects-amit-learning.com/images/shape-a.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.font_cyan{
+    color: #73e3ff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.font_white{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.text_color{
+    color: #ced4ff;
+    font-size: 17px;
+}
+.backgorund-low{
+    background-color: #1b47a1;
+    background-size: contain;
+}
+.font_white-small{
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+/* 7th div */
+.font-cards{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2a81ea;
+    font-weight: bold;
+    font-size: 14px;
+}
+.border-card{
+    border: 2px solid #2a81ea;
+    box-sizing: border-box;
+}
+/* (wrong logo)  */
+.dont-logo{
+    color: #f86168;
+}
+.dont-position{
+    position: relative;
+    top: -75%;
+    left: -25%;
+}
+.dont-position2{
+    position: relative;
+    top: -75%;
+    left: -28%;
+}
+/* (correct logo) */
+.do-logo{
+    color: #3dca93;
+}
+.do-position{
+    position: relative;
+    top: -30%;
+    left: -32%;
+}
+@media only screen and (max-width: 1400px) {
+    .dont-position{
+        left: -32%;
+        top: -30%;
+    }
+    .dont-position2{
+        left: -36%;
+        top: -30%;
+    }
+    .do-position{
+        left: -32%;
+    }
+    .text-position{
+        position: relative;
+        left: -8%;
+    }
+    .text-dec{
+        font-size: 12px;
+    }
+ }
+
+ @media only screen and (max-width: 1200px) {
+    .img-dec{
+        width: 70px;
+        height: 70px;
+    }
+     .dont-position{
+        left: -35%;
+        top: -30%;
+    }
+    .dont-position2{
+        left: -35%;
+        top: -25%;
+    }
+    .do-position{
+        left: -33%;
+    }
+ }
+ @media only screen and (max-width: 992px) {
+     .relative-bottom{
+         order: 2;
+     }
+    .relative-top{
+        order: 1;
+    }
+    .relative-bottom2{
+        order: 5;
+    }
+    .img-dec{
+        width: 80px;
+        height: 80px;
+    }
+    
+     .dont-position{
+        left: -23%;
+        top: -29%;
+    }
+    .dont-position2{
+        left: -25%;
+        top: -27%;
+    }
+    .do-position{
+        left: -30%;
+    }
+ }
+  @media only screen and (max-width: 768px) {
+    .img-dec{
+        width: 70px;
+        height: 70px;
+    }
+     .dont-position{
+        left: -30%;
+        top: -24%;
+    }
+    .dont-position2{
+        left: -32%;
+        top: -25%;
+    }
+    .do-position{
+        left: -33%;
+    }
+ }
+
+ @media only screen and (max-width: 576px) {
+      .space{
+         position: relative;
+         top: 120%;
+         left: 15%;
+     }
+     .space3{
+         /* position: relative;
+         top: 85%;
+         left: -50%; */
+         display: block;
+     } 
+
+     .img-dec{
+        width: 70px;
+        height: 70px;
+    }
+     .dont-position{
+        left: -33%;
+        top: -24%;
+    }
+    .dont-position2{
+        top: -25%;
+    }
+    .do-position{
+        left: -33%;
+    }
+    .font-cards{
+        font-size: 11px;
+    } 
+    .background-inc{
+        height: 1250px;
+    }
+ }
+
+ @media only screen and (max-width: 400px) {
+    .dont-position{
+        left: -50%;
+        top: -24%;
+    }
+    .dont-position2{
+        top: -25%;
+        left: -50%;
+    }
+    .do-position{
+        left: -40%;
+    }
+ }
+
+ /* style for 8th div */
+ 
+.style-button{
+    border: 2px solid #e7e8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #50658e;
+    font-size: 16px;
+}
+.style-button:hover{
+    color: #2a81ea;
+    border-color: #2a81ea;
+}
+.height-modify{
+    height: 55px;
+}
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+ .button-shadow:focus, .button-shadow:active{
+    outline: none !important;
+    box-shadow: none;
+ }
+.button-style{
+    width: 100%;
+    background-color: #f7f9fe;
+    height: 55px;
+}
+.font-button{
+    color: #465675;
+    font-size: 16px;
+    font-weight: 750;
+    cursor: pointer;
+}
+.font-button:hover{
+        color: #2a81ea; 
+}
+.icon-resize{
+    width: 34px;
+    height: 34px;
+}
+.padding-botton{
+    padding-top: 12px;
+}
+.link-style2{
+    text-decoration: none;
+}
+.font-style{
+    font-weight: 550;
+}
+#div-1{
+    display: block;
+}
+.div-hide{
+    visibility: hidden;
+}
+.button-style2{
+    width: 100%;
+    background-color: #f7f9fe;
+}
+.font-style2{
+color: #2a81ea;
+}
+.button-1-style{
+    color: #2a81ea;
+    border-color: #2a81ea;
+}
+@media only screen and (max-width: 768px) {
+    .length-modifier{
+        width: 600px;
+        position: relative;
+        left: -8%;
+    }
+    .font-button{
+        font-size: 15px;
+
+    }
+ }
+ @media only screen and (max-width: 576px) {
+    .length-modifier{
+        width: 500px;
+        position: static;
+    }
+    .font-button{
+        font-size: 14px;
+
+    }
+    .button-style
+    {
+        height: 110%;
+    }
+    .font-How4{
+        font-size: 28px;
+    }
+    .font-How2{
+        font-size: 28px;
+    }
+ }
+ @media only screen and (max-width: 576px) {
+    .length-modifier{
+        width: 300px;
+        position: static;
+    }
+ }
+
+ /* Style for section 9 */
+ .font-style3{
+     font-weight: 450;
+     }
+
+     @media only screen and (max-width: 992px) {
+        .position-right{
+            position: relative;
+            right: -28%;
+        }
+     }
+
+     @media only screen and (max-width: 768px) {
+        .position-right{
+            position: static;
+        }
+        .padding-buttom2{
+            margin-bottom: 30%;
+        }
+     }
+
+     /* Style for the footer */
+     .background-covido3{
+        background-color: #151c2e;
+        background-image: url(../images/shape-a.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
+     .font-logo2{
+         color: white;
+     }
+     .footer-font{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #b2bfe0;
+        line-height: 1.5em;
+        text-decoration: none;
+     }
+     .font-logo3{
+        color: #50658e;
+     }
+     .fb:hover{
+         color: #204eb3;
+     }
+     .tw:hover{
+        color: #00acee;
+     }
+     .yt:hover{
+         color: #FF0000;
+     }
+     .font-white{
+        color: #fff;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+     }
+     .font-larger{
+         font-size: 17px;
+     }
+     /* Headline-color */
+     .color-change{
+         color: white;
+     }
+     .font-smaller{
+         font-size: 13px;
+     }
+     #item1{
+         color: #2a81ea;
+     }
+     /* For the scrolling icon */
+    .icon-scroll{
+        background-color: #2b56f5;
+        width: 50px;
+        height: 50px;
+        /* position: fixed; */
+     }
+   
